@@ -1,6 +1,5 @@
 import { NAVLINKS } from "@/constant/NavLinks";
 import Link from "next/link";
-import React from "react";
 import { CgClose } from "react-icons/cg";
 
 const MobileNav = ({
@@ -14,15 +13,15 @@ const MobileNav = ({
 		<div>
 			{/* Overlay */}
 			<div
-				className={`fixed inset-0 z-[1000] w-full bg-black opacity-70 transition-all duration-500 ${
-					showNav ? "translate-x-0" : "translate-x-[-100%]"
+				className={`fixed inset-0 z-1000 w-full bg-black opacity-70 transition-all duration-500 ${
+					showNav ? "translate-x-0" : "-translate-x-full"
 				}`}
 				onClick={closeNav}
 			></div>
 			{/* NavLinks  */}
 			<div
-				className={`fixed top-0 h-full w-[70%] sm:w-[60%] bg-primary flex flex-col justify-center gap-6 z-1050 transform transition-all duration-500 delay-300 ${
-					showNav ? "translate-x-0" : "translate-x-[-100%]"
+				className={`fixed top-0 h-full w-70/100 sm:w-[60%] bg-primary flex flex-col justify-center gap-6 z-1050 transform transition-all duration-500 delay-300 ${
+					showNav ? "translate-x-0" : "-translate-x-full"
 				}`}
 			>
 				{NAVLINKS.map((link) => (
