@@ -25,7 +25,7 @@ const About = () => {
 				</div>
 
 				<div>
-					<p className="text-blue-700 text-lg font-medium tracking-widest">
+					<p className="text-secondary text-lg font-medium tracking-widest">
 						About us
 					</p>
 					<h2 className="text-3xl md:text-5xl font-bold mt-4">
