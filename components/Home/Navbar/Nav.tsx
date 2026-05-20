@@ -12,7 +12,7 @@ const Nav = ({ openNav }: { openNav: () => void }) => {
 				<div className="hidden lg:flex items-center bg-white h-[10vh] md:pl-4 gap-8 xl:gap-10">
 					{NAVLINKS.map((link) => (
 						<Link
-							href={link.url}
+							href={link.url === "home" ? "/" : `/${link.url}`}
 							key={link.id}
 							className="text-black hover:text-primary hover:font-semibold transition-all duration-200"
 						>

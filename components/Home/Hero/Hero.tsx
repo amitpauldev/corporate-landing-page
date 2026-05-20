@@ -3,7 +3,10 @@ import React from "react";
 
 const Hero = () => {
 	return (
-		<div className="w-full h-[80vh] bg-bg-primary flex flex-col justify-center">
+		<div
+			id="home"
+			className="w-full h-[80vh] bg-bg-primary flex flex-col justify-center scroll-mt-28"
+		>
 			<div className="w-80/100 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
 				<div className="z-10">
 					{/* Title  */}
@@ -31,6 +34,7 @@ const Hero = () => {
 						alt="hero"
 						width={550}
 						height={550}
+						priority
 						className="w-auto"
 					/>
 				</div>

@@ -14,7 +14,7 @@ const PROJECT_IMAGES = [
 
 const Project = () => {
 	return (
-		<div className="pt-16 pb-16 bg-bg-primary">
+		<div id="portfolio" className="pt-16 pb-16 bg-bg-primary">
 			<p className="text-lg text-primary-light text-center font-medium tracking-widest">
 				Portfolio
 			</p>

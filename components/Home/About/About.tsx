@@ -4,7 +4,7 @@ import AboutProgressbar from "./AboutProgressbar";
 
 const About = () => {
 	return (
-		<div className="pt-16 pb-16 bg-white">
+		<div id="about" className="pt-16 pb-16 bg-white">
 			<div className="w-80/100 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
 				<div className="relative flex justify-center items-center">
 					<Image

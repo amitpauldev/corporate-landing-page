@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const Blog = () => {
 	return (
-		<div className="pt-16 pb-16 bg-white">
+		<div id="blog" className="pt-16 pb-16 bg-white">
 			<p className="text-secondary text-lg text-center font-medium tracking-widest">
 				Blog
 			</p>
