@@ -3,7 +3,7 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
 	return (
-		<div className="pt-20 pb-25 relative">
+		<div className="pt-20 pb-25 relative bg-bg-primary">
 			<Image
 				src="/images/service_bg.png"
 				alt="service"
